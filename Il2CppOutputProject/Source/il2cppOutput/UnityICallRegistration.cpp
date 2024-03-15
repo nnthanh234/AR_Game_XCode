@@ -1850,10 +1850,6 @@ void RegisterAllStrippedInternalCalls()
 		void Register_UnityEngine_GameObject_Find();
 		Register_UnityEngine_GameObject_Find();
 
-		//UnityEngine.GameObject UnityEngine.GameObject::FindGameObjectWithTag(System.String)
-		void Register_UnityEngine_GameObject_FindGameObjectWithTag();
-		Register_UnityEngine_GameObject_FindGameObjectWithTag();
-
 		//UnityEngine.GameObject[] UnityEngine.GameObject::FindGameObjectsWithTag(System.String)
 		void Register_UnityEngine_GameObject_FindGameObjectsWithTag();
 		Register_UnityEngine_GameObject_FindGameObjectsWithTag();

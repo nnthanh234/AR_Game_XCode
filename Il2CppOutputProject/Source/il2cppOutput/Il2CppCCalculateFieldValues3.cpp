@@ -5420,7 +5420,6 @@ struct ARCoreFaceRegionManager_t6A14BB979168B3ECED956B78DC74A6BE59A4BA6D  : publ
 	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___m_RegionPrefab;
 	ARFaceManager_tE5955187C9D7C9C4C4139F522DA0DEA69EFCFD8F* ___m_FaceManager;
 	XROrigin_t5E534A6D886991AF3C1C64127E19A3A510009CFE* ___m_Origin;
-	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___objGround;
 	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___go;
 };
 struct ARFeatheredPlaneMeshVisualizer_t5B508CD2D37F908F4359D7DED031B3C357E34955  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
@@ -7253,9 +7252,9 @@ IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable9182[2] =
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable9183[4] = 
 {
 	static_cast<int32_t>(offsetof(GameUI_tFDFB695AFCF741CBE3E8A9B75EB1D87357C4D757, ___rectEffect)),static_cast<int32_t>(offsetof(GameUI_tFDFB695AFCF741CBE3E8A9B75EB1D87357C4D757, ___rotSpeed)),static_cast<int32_t>(offsetof(GameUI_tFDFB695AFCF741CBE3E8A9B75EB1D87357C4D757, ___objGameSoundSetting)),static_cast<int32_t>(offsetof(GameUI_tFDFB695AFCF741CBE3E8A9B75EB1D87357C4D757, ___objBestScore)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable9184[5] = 
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable9184[4] = 
 {
-	static_cast<int32_t>(offsetof(ARCoreFaceRegionManager_t6A14BB979168B3ECED956B78DC74A6BE59A4BA6D, ___m_RegionPrefab)),static_cast<int32_t>(offsetof(ARCoreFaceRegionManager_t6A14BB979168B3ECED956B78DC74A6BE59A4BA6D, ___m_FaceManager)),static_cast<int32_t>(offsetof(ARCoreFaceRegionManager_t6A14BB979168B3ECED956B78DC74A6BE59A4BA6D, ___m_Origin)),static_cast<int32_t>(offsetof(ARCoreFaceRegionManager_t6A14BB979168B3ECED956B78DC74A6BE59A4BA6D, ___objGround)),static_cast<int32_t>(offsetof(ARCoreFaceRegionManager_t6A14BB979168B3ECED956B78DC74A6BE59A4BA6D, ___go)),};
+	static_cast<int32_t>(offsetof(ARCoreFaceRegionManager_t6A14BB979168B3ECED956B78DC74A6BE59A4BA6D, ___m_RegionPrefab)),static_cast<int32_t>(offsetof(ARCoreFaceRegionManager_t6A14BB979168B3ECED956B78DC74A6BE59A4BA6D, ___m_FaceManager)),static_cast<int32_t>(offsetof(ARCoreFaceRegionManager_t6A14BB979168B3ECED956B78DC74A6BE59A4BA6D, ___m_Origin)),static_cast<int32_t>(offsetof(ARCoreFaceRegionManager_t6A14BB979168B3ECED956B78DC74A6BE59A4BA6D, ___go)),};
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable9187[2] = 
 {
 	static_cast<int32_t>(offsetof(U3CPrivateImplementationDetailsU3E_t0F5473E849A5A5185A9F4C5246F0C32816C49FCA_StaticFields, ___5C658D17609E1900B6CA9F564BDF2C1C2A3BC19E08135DD981B8715F67BAC6E8)),static_cast<int32_t>(offsetof(U3CPrivateImplementationDetailsU3E_t0F5473E849A5A5185A9F4C5246F0C32816C49FCA_StaticFields, ___AC92BEFC3F4F50173F20B2988B1DA03F3C221837E339508C558F061E96A8987B)),};
