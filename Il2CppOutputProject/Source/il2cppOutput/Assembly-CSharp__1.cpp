@@ -996,7 +996,7 @@ IL_0013:
 		Enumerator_t2743D5A35F15690DAB1B61F0480A44C6AFE6C2DC L_4;
 		L_4 = TrackableCollection_1_GetEnumerator_m3CD3F46003D1DE39B7C8FFD1490E59DD23BEBA3F((&V_1), TrackableCollection_1_GetEnumerator_m3CD3F46003D1DE39B7C8FFD1490E59DD23BEBA3F_RuntimeMethod_var);
 		V_0 = L_4;
-		goto IL_01a3;
+		goto IL_0197;
 	}
 
 IL_002c:
@@ -1071,7 +1071,7 @@ IL_00b5:
 		L_28 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_27, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
 		if (!L_28)
 		{
-			goto IL_012d;
+			goto IL_0127;
 		}
 	}
 	{
@@ -1091,7 +1091,7 @@ IL_00b5:
 		L_35 = Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865(NULL);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_36;
 		memset((&L_36), 0, sizeof(L_36));
-		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_36), (-1.20000005f), ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_subtract(L_34, (1.0f))), (1500.0f))), L_35)), (10.0f), NULL);
+		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_36), (-1.20000005f), ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(L_34, (1500.0f))), L_35)), (10.0f), NULL);
 		NullCheck(L_30);
 		Transform_set_localPosition_mDE1C997F7D79C0885210B7732B4BA50EE7D73134(L_30, L_36, NULL);
 		ARFace_t73C068C9C8422F79A858EC41C322D399305B8453* L_37 = V_2;
@@ -1109,10 +1109,10 @@ IL_00b5:
 		L_42 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteral48C5283C017814BDEAEF9242D3A84A054A36A607, L_41, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_42, NULL);
-		goto IL_01a3;
+		goto IL_0197;
 	}
 
-IL_012d:
+IL_0127:
 	{
 		ARFace_t73C068C9C8422F79A858EC41C322D399305B8453* L_43 = V_2;
 		NullCheck(L_43);
@@ -1123,7 +1123,7 @@ IL_012d:
 		L_45 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_44, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
 		if (!L_45)
 		{
-			goto IL_01a3;
+			goto IL_0197;
 		}
 	}
 	{
@@ -1143,7 +1143,7 @@ IL_012d:
 		L_52 = Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865(NULL);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_53;
 		memset((&L_53), 0, sizeof(L_53));
-		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_53), (-1.20000005f), ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_subtract(L_51, (1.0f))), (1500.0f))), L_52)), (10.0f), NULL);
+		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_53), (-1.20000005f), ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(L_51, (1500.0f))), L_52)), (10.0f), NULL);
 		NullCheck(L_47);
 		Transform_set_localPosition_mDE1C997F7D79C0885210B7732B4BA50EE7D73134(L_47, L_53, NULL);
 		ARFace_t73C068C9C8422F79A858EC41C322D399305B8453* L_54 = V_2;
@@ -1163,7 +1163,7 @@ IL_012d:
 		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_59, NULL);
 	}
 
-IL_01a3:
+IL_0197:
 	{
 		bool L_60;
 		L_60 = Enumerator_MoveNext_mBE785620F02FA4C9BFF31CC4A56D796BCA196F04((&V_0), Enumerator_MoveNext_mBE785620F02FA4C9BFF31CC4A56D796BCA196F04_RuntimeMethod_var);
