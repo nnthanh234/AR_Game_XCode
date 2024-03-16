@@ -3575,7 +3575,6 @@ struct EventTrigger_tAEBFB7A16CA99343EA87722F78884BF8646BAE1B  : public MonoBeha
 };
 struct FlyerCollider_t3E15E0C5B64BCEF5390AB901D26A6D2F377E83DF  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
 {
-	Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* ___rb;
 };
 struct FlyerManager_t564F8202FA2D2CA60C2AC177BE944424FCEB8CE6  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
 {
@@ -18298,50 +18297,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BuildingSpawner__ctor_mB3BF8CD86486CECCA
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FlyerCollider_Update_mC2BA012FD4594C5A0200172D857F4A75A5C2AECF (FlyerCollider_t3E15E0C5B64BCEF5390AB901D26A6D2F377E83DF* __this, const RuntimeMethod* method) 
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&FlyerManager_t564F8202FA2D2CA60C2AC177BE944424FCEB8CE6_il2cpp_TypeInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* G_B2_0 = NULL;
-	Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* G_B1_0 = NULL;
-	int32_t G_B3_0 = 0;
-	Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* G_B3_1 = NULL;
-	{
-		Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* L_0 = __this->___rb;
-		FlyerManager_t564F8202FA2D2CA60C2AC177BE944424FCEB8CE6* L_1 = ((FlyerManager_t564F8202FA2D2CA60C2AC177BE944424FCEB8CE6_StaticFields*)il2cpp_codegen_static_fields_for(FlyerManager_t564F8202FA2D2CA60C2AC177BE944424FCEB8CE6_il2cpp_TypeInfo_var))->___Ins;
-		NullCheck(L_1);
-		bool L_2;
-		L_2 = FlyerManager_get_IsStartGame_m6D89C0984E8C954B60E4E61E7B80E27FD418FF2C_inline(L_1, NULL);
-		if (!L_2)
-		{
-			G_B2_0 = L_0;
-			goto IL_0015;
-		}
-		G_B1_0 = L_0;
-	}
-	{
-		G_B3_0 = 0;
-		G_B3_1 = G_B1_0;
-		goto IL_0016;
-	}
-
-IL_0015:
-	{
-		G_B3_0 = 1;
-		G_B3_1 = G_B2_0;
-	}
-
-IL_0016:
-	{
-		NullCheck(G_B3_1);
-		Rigidbody_set_useGravity_m1B1B22E093F9DC92D7BEEBBE6B02642B3B6C4389(G_B3_1, (bool)G_B3_0, NULL);
-		return;
-	}
-}
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FlyerCollider_OnCollisionEnter2D_mFC64AB3A53E98BCECD3E77DE9712ADC833192960 (FlyerCollider_t3E15E0C5B64BCEF5390AB901D26A6D2F377E83DF* __this, Collision2D_t81E83212C969FDDE2AB84EBCA31502818EEAB85B* ___0_collision, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;

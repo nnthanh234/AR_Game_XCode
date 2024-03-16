@@ -5795,10 +5795,6 @@ struct EventSystemHandler_t682DE68ECD4C260AC11B771D2754D93C88E2AB5E  : public Mo
 {
 	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___embeddedEventSystem;
 };
-struct FlyerCollider_t3E15E0C5B64BCEF5390AB901D26A6D2F377E83DF  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
-{
-	Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* ___rb;
-};
 struct FlyerManager_t564F8202FA2D2CA60C2AC177BE944424FCEB8CE6  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
 {
 	ARCoreFaceRegionManager_t6A14BB979168B3ECED956B78DC74A6BE59A4BA6D* ___arCoreFace;
@@ -7150,9 +7146,6 @@ IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable9146[6] =
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable9148[5] = 
 {
 	static_cast<int32_t>(offsetof(BuildingSpawner_t6E36D0D5E193269D15A3657E983AC8A4F3C4A035, ___objBuildings)),static_cast<int32_t>(offsetof(BuildingSpawner_t6E36D0D5E193269D15A3657E983AC8A4F3C4A035, ___timer)),static_cast<int32_t>(offsetof(BuildingSpawner_t6E36D0D5E193269D15A3657E983AC8A4F3C4A035, ___maxTime)),static_cast<int32_t>(offsetof(BuildingSpawner_t6E36D0D5E193269D15A3657E983AC8A4F3C4A035, ___defaultMoveBuildingSpeed)),static_cast<int32_t>(offsetof(BuildingSpawner_t6E36D0D5E193269D15A3657E983AC8A4F3C4A035, ___moveBuildingSpeed)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable9149[1] = 
-{
-	static_cast<int32_t>(offsetof(FlyerCollider_t3E15E0C5B64BCEF5390AB901D26A6D2F377E83DF, ___rb)),};
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable9150[3] = 
 {
 	static_cast<int32_t>(offsetof(U3CShowGameOverU3Ed__14_t50572916FADB234A1D985922FD22167CB8C81F5A, ___U3CU3E1__state)),static_cast<int32_t>(offsetof(U3CShowGameOverU3Ed__14_t50572916FADB234A1D985922FD22167CB8C81F5A, ___U3CU3E2__current)),static_cast<int32_t>(offsetof(U3CShowGameOverU3Ed__14_t50572916FADB234A1D985922FD22167CB8C81F5A, ___U3CU3E4__this)),};
