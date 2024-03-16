@@ -322,6 +322,7 @@ extern void BuildingSpawner_CacualateSpaceMiddle_mDC68B0C0A6E69B86ABB03D36A579CC
 extern void BuildingSpawner_Update_mE0BF53D6DC94FAA07EF2DEB14096350C634BF5C1 (void);
 extern void BuildingSpawner_IncreaseTimeSpawnBuilding_m262C6820551EAABE63B6D2C8D758249D3798B942 (void);
 extern void BuildingSpawner__ctor_mB3BF8CD86486CECCAE1A2656D49C50A4E2299CFD (void);
+extern void FlyerCollider_Update_mC2BA012FD4594C5A0200172D857F4A75A5C2AECF (void);
 extern void FlyerCollider_OnCollisionEnter2D_mFC64AB3A53E98BCECD3E77DE9712ADC833192960 (void);
 extern void FlyerCollider__ctor_m10F035AA7EEAB6A63EC42F7CD1640CDAF1AD0314 (void);
 extern void FlyerManager_get_IsStartGame_m6D89C0984E8C954B60E4E61E7B80E27FD418FF2C (void);
@@ -518,7 +519,7 @@ extern void ARCoreFaceRegionManager_Start_mFB317E116597E146CAF7CBFBB399FA7982114
 extern void ARCoreFaceRegionManager_FixedUpdate_m84FC7CD91D263C075CD9EC667D12C0541BA9963E (void);
 extern void ARCoreFaceRegionManager_OnDestroy_m8AAC7D94BC057E7C78751F8ADB97B309C82B4B46 (void);
 extern void ARCoreFaceRegionManager__ctor_mF98B1640EA805202828FCC01E39734B86963906E (void);
-static Il2CppMethodPointer s_methodPointers[506] = 
+static Il2CppMethodPointer s_methodPointers[507] = 
 {
 	JsonMessage__ctor_mAE7079BAD41B31F02DAD0236FEB47C6BC7BC717C,
 	NativeAPI__ctor_m18E74AFFE46A30E49D4DFDD14BB1D30EEB609295,
@@ -830,6 +831,7 @@ static Il2CppMethodPointer s_methodPointers[506] =
 	BuildingSpawner_Update_mE0BF53D6DC94FAA07EF2DEB14096350C634BF5C1,
 	BuildingSpawner_IncreaseTimeSpawnBuilding_m262C6820551EAABE63B6D2C8D758249D3798B942,
 	BuildingSpawner__ctor_mB3BF8CD86486CECCAE1A2656D49C50A4E2299CFD,
+	FlyerCollider_Update_mC2BA012FD4594C5A0200172D857F4A75A5C2AECF,
 	FlyerCollider_OnCollisionEnter2D_mFC64AB3A53E98BCECD3E77DE9712ADC833192960,
 	FlyerCollider__ctor_m10F035AA7EEAB6A63EC42F7CD1640CDAF1AD0314,
 	FlyerManager_get_IsStartGame_m6D89C0984E8C954B60E4E61E7B80E27FD418FF2C,
@@ -1062,7 +1064,7 @@ static Il2CppTokenAdjustorThunkPair s_adjustorThunks[16] =
 	{ 0x060000EC, U3CU3CAwakeU3Eb__10_2U3Ed_MoveNext_m83AD086387859A11D2045119E559150C97643D94_AdjustorThunk },
 	{ 0x060000ED, U3CU3CAwakeU3Eb__10_2U3Ed_SetStateMachine_m03ED795FCF4E515A4BC564C01B2C46623FFA7D84_AdjustorThunk },
 };
-static const int32_t s_InvokerIndices[506] = 
+static const int32_t s_InvokerIndices[507] = 
 {
 	9505,
 	9505,
@@ -1374,6 +1376,7 @@ static const int32_t s_InvokerIndices[506] =
 	9505,
 	9505,
 	9505,
+	9505,
 	7481,
 	9505,
 	9193,
@@ -1575,7 +1578,7 @@ IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
 const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
 {
 	"Assembly-CSharp.dll",
-	506,
+	507,
 	s_methodPointers,
 	16,
 	s_adjustorThunks,
