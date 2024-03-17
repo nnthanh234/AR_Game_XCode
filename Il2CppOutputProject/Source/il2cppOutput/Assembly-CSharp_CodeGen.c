@@ -313,6 +313,11 @@ extern void ARFeatheredPlaneMeshVisualizer_ARPlane_boundaryUpdated_mB3D9BBD14EA1
 extern void ARFeatheredPlaneMeshVisualizer_GenerateBoundaryUVs_mF756D3C1F7925A69CD8C7C8CCE56209AB321FEF5 (void);
 extern void ARFeatheredPlaneMeshVisualizer__ctor_m9A77651BCAE58AA0B994FFF6C6B63B1CFF2729F6 (void);
 extern void ARFeatheredPlaneMeshVisualizer__cctor_m56285A000EE27A1631BE9C5BCDA5C376E5D133C3 (void);
+extern void AREyeTracker_OnEnable_m1B6FC72BD35747921C0612E3EDC018CA9A5FB247 (void);
+extern void AREyeTracker_OnDisable_mDC31CFFC9B5B311DAC38D09140D367B91F2AA18D (void);
+extern void AREyeTracker_OnFaceUpdate_m854279B09195394066CBE3C89320B70B21548188 (void);
+extern void AREyeTracker_SetVisibility_mED0E3D9C91FBF6F6C3E247FCBCE8D1D7088044E3 (void);
+extern void AREyeTracker__ctor_m9602BCB8A72AF0DE3921F89A99FC258A46597A82 (void);
 extern void BuildingIncreaseScore_OnTriggerEnter2D_mF52171D15CF6F71D5B255F31D356AE71E5AB13AD (void);
 extern void BuildingIncreaseScore__ctor_m18A00FDF93C246539BF97DAE586B75CDF73A0217 (void);
 extern void BuildingSpawner_OnEnable_mBCE04531F01A88A5DBCB3EB96E2BC83F3A54FD1B (void);
@@ -519,7 +524,7 @@ extern void ARCoreFaceRegionManager_Start_mFB317E116597E146CAF7CBFBB399FA7982114
 extern void ARCoreFaceRegionManager_FixedUpdate_m84FC7CD91D263C075CD9EC667D12C0541BA9963E (void);
 extern void ARCoreFaceRegionManager_OnDestroy_m8AAC7D94BC057E7C78751F8ADB97B309C82B4B46 (void);
 extern void ARCoreFaceRegionManager__ctor_mF98B1640EA805202828FCC01E39734B86963906E (void);
-static Il2CppMethodPointer s_methodPointers[507] = 
+static Il2CppMethodPointer s_methodPointers[512] = 
 {
 	JsonMessage__ctor_mAE7079BAD41B31F02DAD0236FEB47C6BC7BC717C,
 	NativeAPI__ctor_m18E74AFFE46A30E49D4DFDD14BB1D30EEB609295,
@@ -822,6 +827,11 @@ static Il2CppMethodPointer s_methodPointers[507] =
 	ARFeatheredPlaneMeshVisualizer_GenerateBoundaryUVs_mF756D3C1F7925A69CD8C7C8CCE56209AB321FEF5,
 	ARFeatheredPlaneMeshVisualizer__ctor_m9A77651BCAE58AA0B994FFF6C6B63B1CFF2729F6,
 	ARFeatheredPlaneMeshVisualizer__cctor_m56285A000EE27A1631BE9C5BCDA5C376E5D133C3,
+	AREyeTracker_OnEnable_m1B6FC72BD35747921C0612E3EDC018CA9A5FB247,
+	AREyeTracker_OnDisable_mDC31CFFC9B5B311DAC38D09140D367B91F2AA18D,
+	AREyeTracker_OnFaceUpdate_m854279B09195394066CBE3C89320B70B21548188,
+	AREyeTracker_SetVisibility_mED0E3D9C91FBF6F6C3E247FCBCE8D1D7088044E3,
+	AREyeTracker__ctor_m9602BCB8A72AF0DE3921F89A99FC258A46597A82,
 	BuildingIncreaseScore_OnTriggerEnter2D_mF52171D15CF6F71D5B255F31D356AE71E5AB13AD,
 	BuildingIncreaseScore__ctor_m18A00FDF93C246539BF97DAE586B75CDF73A0217,
 	BuildingSpawner_OnEnable_mBCE04531F01A88A5DBCB3EB96E2BC83F3A54FD1B,
@@ -1064,7 +1074,7 @@ static Il2CppTokenAdjustorThunkPair s_adjustorThunks[16] =
 	{ 0x060000EC, U3CU3CAwakeU3Eb__10_2U3Ed_MoveNext_m83AD086387859A11D2045119E559150C97643D94_AdjustorThunk },
 	{ 0x060000ED, U3CU3CAwakeU3Eb__10_2U3Ed_SetStateMachine_m03ED795FCF4E515A4BC564C01B2C46623FFA7D84_AdjustorThunk },
 };
-static const int32_t s_InvokerIndices[507] = 
+static const int32_t s_InvokerIndices[512] = 
 {
 	9505,
 	9505,
@@ -1367,6 +1377,11 @@ static const int32_t s_InvokerIndices[507] =
 	7481,
 	9505,
 	14963,
+	9505,
+	9505,
+	7292,
+	7334,
+	9505,
 	7481,
 	9505,
 	9505,
@@ -1578,7 +1593,7 @@ IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
 const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
 {
 	"Assembly-CSharp.dll",
-	507,
+	512,
 	s_methodPointers,
 	16,
 	s_adjustorThunks,

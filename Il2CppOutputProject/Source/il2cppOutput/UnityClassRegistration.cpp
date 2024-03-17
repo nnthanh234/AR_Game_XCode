@@ -173,6 +173,7 @@ class Collider; template <> void RegisterUnityClass<Collider>(const char*);
 class MeshCollider; template <> void RegisterUnityClass<MeshCollider>(const char*);
 class PhysicsManager; template <> void RegisterUnityClass<PhysicsManager>(const char*);
 class Rigidbody; template <> void RegisterUnityClass<Rigidbody>(const char*);
+class SphereCollider; template <> void RegisterUnityClass<SphereCollider>(const char*);
 class BoxCollider2D; template <> void RegisterUnityClass<BoxCollider2D>(const char*);
 class CapsuleCollider2D; template <> void RegisterUnityClass<CapsuleCollider2D>(const char*);
 class Collider2D; template <> void RegisterUnityClass<Collider2D>(const char*);
@@ -194,7 +195,7 @@ void RegisterAllClasses()
 {
 void RegisterBuiltinTypes();
 RegisterBuiltinTypes();
-	//Total: 89 non stripped classes
+	//Total: 90 non stripped classes
 	//0. AnimationClip
 	RegisterUnityClass<AnimationClip>("Animation");
 	//1. Animator
@@ -341,37 +342,39 @@ RegisterBuiltinTypes();
 	RegisterUnityClass<PhysicsManager>("Physics");
 	//72. Rigidbody
 	RegisterUnityClass<Rigidbody>("Physics");
-	//73. BoxCollider2D
+	//73. SphereCollider
+	RegisterUnityClass<SphereCollider>("Physics");
+	//74. BoxCollider2D
 	RegisterUnityClass<BoxCollider2D>("Physics2D");
-	//74. CapsuleCollider2D
+	//75. CapsuleCollider2D
 	RegisterUnityClass<CapsuleCollider2D>("Physics2D");
-	//75. Collider2D
+	//76. Collider2D
 	RegisterUnityClass<Collider2D>("Physics2D");
-	//76. EdgeCollider2D
+	//77. EdgeCollider2D
 	RegisterUnityClass<EdgeCollider2D>("Physics2D");
-	//77. Physics2DSettings
+	//78. Physics2DSettings
 	RegisterUnityClass<Physics2DSettings>("Physics2D");
-	//78. Rigidbody2D
+	//79. Rigidbody2D
 	RegisterUnityClass<Rigidbody2D>("Physics2D");
-	//79. Font
+	//80. Font
 	RegisterUnityClass<TextRendering::Font>("TextRendering");
-	//80. Canvas
+	//81. Canvas
 	RegisterUnityClass<UI::Canvas>("UI");
-	//81. CanvasGroup
+	//82. CanvasGroup
 	RegisterUnityClass<UI::CanvasGroup>("UI");
-	//82. CanvasRenderer
+	//83. CanvasRenderer
 	RegisterUnityClass<UI::CanvasRenderer>("UI");
-	//83. VFXManager
+	//84. VFXManager
 	RegisterUnityClass<VFXManager>("VFX");
-	//84. VisualEffect
+	//85. VisualEffect
 	RegisterUnityClass<VisualEffect>("VFX");
-	//85. VisualEffectAsset
+	//86. VisualEffectAsset
 	RegisterUnityClass<VisualEffectAsset>("VFX");
-	//86. VisualEffectObject
+	//87. VisualEffectObject
 	RegisterUnityClass<VisualEffectObject>("VFX");
-	//87. VideoClip
+	//88. VideoClip
 	RegisterUnityClass<VideoClip>("Video");
-	//88. VideoPlayer
+	//89. VideoPlayer
 	RegisterUnityClass<VideoPlayer>("Video");
 
 }
