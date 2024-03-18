@@ -18268,7 +18268,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AREyeTracker_OnFaceUpdate_m854279B091953
 		float L_13 = L_12.___y;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_14;
 		memset((&L_14), 0, sizeof(L_14));
-		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_14), (-1.20000005f), ((float)il2cpp_codegen_multiply(((-L_13)), (100.0f))), (10.0f), NULL);
+		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_14), (-1.20000005f), ((float)il2cpp_codegen_multiply(((-L_13)), (10.0f))), (10.0f), NULL);
 		NullCheck(L_9);
 		Transform_set_localPosition_mDE1C997F7D79C0885210B7732B4BA50EE7D73134(L_9, L_14, NULL);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_15 = __this->___go;
@@ -18348,7 +18348,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AREyeTracker_SetVisibility_mED0E3D9C91FB
 		float L_7 = L_6.___y;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_8;
 		memset((&L_8), 0, sizeof(L_8));
-		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_8), (-1.20000005f), ((float)il2cpp_codegen_multiply(((-L_7)), (100.0f))), (10.0f), NULL);
+		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_8), (-1.20000005f), ((float)il2cpp_codegen_multiply(((-L_7)), (10.0f))), (10.0f), NULL);
 		NullCheck(L_3);
 		Transform_set_localPosition_mDE1C997F7D79C0885210B7732B4BA50EE7D73134(L_3, L_8, NULL);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_9 = __this->___go;
@@ -18395,16 +18395,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BuildingIncreaseScore_OnTriggerEnter2D_m
 		L_2 = GameObject_get_layer_m108902B9C89E9F837CE06B9942AA42307450FEAF(L_1, NULL);
 		if ((!(((uint32_t)L_2) == ((uint32_t)((int32_t)9)))))
 		{
-			goto IL_0019;
+			goto IL_0020;
 		}
 	}
 	{
 		Score_t190877D354724EB1BD99FA27F906E19CB8F0C88A* L_3 = ((Score_t190877D354724EB1BD99FA27F906E19CB8F0C88A_StaticFields*)il2cpp_codegen_static_fields_for(Score_t190877D354724EB1BD99FA27F906E19CB8F0C88A_il2cpp_TypeInfo_var))->___Ins;
 		NullCheck(L_3);
 		Score_UpdateScore_m21BA3B48818CF7248CDD4298259CD3A11F5C98A6(L_3, NULL);
+		Behaviour_set_enabled_mF1DCFE60EB09E0529FE9476CA804A3AA2D72B16A(__this, (bool)0, NULL);
 	}
 
-IL_0019:
+IL_0020:
 	{
 		return;
 	}
