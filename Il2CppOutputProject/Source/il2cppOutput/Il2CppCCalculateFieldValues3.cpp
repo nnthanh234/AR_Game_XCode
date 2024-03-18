@@ -5425,10 +5425,9 @@ struct ARCoreFaceRegionManager_t6A14BB979168B3ECED956B78DC74A6BE59A4BA6D  : publ
 };
 struct AREyeTracker_t85769F47F82E751557E5C7619F15304D6D5107E2  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
 {
-	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___eyePrefab;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___flyerPrefab;
 	ARFace_t73C068C9C8422F79A858EC41C322D399305B8453* ___arFace;
-	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___leftEye;
-	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___rightEye;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___go;
 };
 struct ARFeatheredPlaneMeshVisualizer_t5B508CD2D37F908F4359D7DED031B3C357E34955  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
 {
@@ -7155,9 +7154,9 @@ IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable9145[6] =
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable9146[6] = 
 {
 	static_cast<int32_t>(offsetof(ARFeatheredPlaneMeshVisualizer_t5B508CD2D37F908F4359D7DED031B3C357E34955, ___m_FeatheringWidth)),static_cast<int32_t>(offsetof(ARFeatheredPlaneMeshVisualizer_t5B508CD2D37F908F4359D7DED031B3C357E34955_StaticFields, ___s_FeatheringUVs)),static_cast<int32_t>(offsetof(ARFeatheredPlaneMeshVisualizer_t5B508CD2D37F908F4359D7DED031B3C357E34955_StaticFields, ___s_Vertices)),static_cast<int32_t>(offsetof(ARFeatheredPlaneMeshVisualizer_t5B508CD2D37F908F4359D7DED031B3C357E34955, ___m_PlaneMeshVisualizer)),static_cast<int32_t>(offsetof(ARFeatheredPlaneMeshVisualizer_t5B508CD2D37F908F4359D7DED031B3C357E34955, ___m_Plane)),static_cast<int32_t>(offsetof(ARFeatheredPlaneMeshVisualizer_t5B508CD2D37F908F4359D7DED031B3C357E34955, ___m_FeatheredPlaneMaterial)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable9147[4] = 
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable9147[3] = 
 {
-	static_cast<int32_t>(offsetof(AREyeTracker_t85769F47F82E751557E5C7619F15304D6D5107E2, ___eyePrefab)),static_cast<int32_t>(offsetof(AREyeTracker_t85769F47F82E751557E5C7619F15304D6D5107E2, ___arFace)),static_cast<int32_t>(offsetof(AREyeTracker_t85769F47F82E751557E5C7619F15304D6D5107E2, ___leftEye)),static_cast<int32_t>(offsetof(AREyeTracker_t85769F47F82E751557E5C7619F15304D6D5107E2, ___rightEye)),};
+	static_cast<int32_t>(offsetof(AREyeTracker_t85769F47F82E751557E5C7619F15304D6D5107E2, ___flyerPrefab)),static_cast<int32_t>(offsetof(AREyeTracker_t85769F47F82E751557E5C7619F15304D6D5107E2, ___arFace)),static_cast<int32_t>(offsetof(AREyeTracker_t85769F47F82E751557E5C7619F15304D6D5107E2, ___go)),};
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable9149[5] = 
 {
 	static_cast<int32_t>(offsetof(BuildingSpawner_t6E36D0D5E193269D15A3657E983AC8A4F3C4A035, ___objBuildings)),static_cast<int32_t>(offsetof(BuildingSpawner_t6E36D0D5E193269D15A3657E983AC8A4F3C4A035, ___timer)),static_cast<int32_t>(offsetof(BuildingSpawner_t6E36D0D5E193269D15A3657E983AC8A4F3C4A035, ___maxTime)),static_cast<int32_t>(offsetof(BuildingSpawner_t6E36D0D5E193269D15A3657E983AC8A4F3C4A035, ___defaultMoveBuildingSpeed)),static_cast<int32_t>(offsetof(BuildingSpawner_t6E36D0D5E193269D15A3657E983AC8A4F3C4A035, ___moveBuildingSpeed)),};
