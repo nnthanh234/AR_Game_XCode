@@ -18040,7 +18040,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AREyeTracker_OnFaceUpdate_m854279B091953
 		L_1 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_0, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
 		if (!L_1)
 		{
-			goto IL_0096;
+			goto IL_0095;
 		}
 	}
 	{
@@ -18050,7 +18050,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AREyeTracker_OnFaceUpdate_m854279B091953
 		L_3 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_2, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
 		if (!L_3)
 		{
-			goto IL_0096;
+			goto IL_0095;
 		}
 	}
 	{
@@ -18079,7 +18079,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AREyeTracker_OnFaceUpdate_m854279B091953
 		float L_13 = L_12.___y;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_14;
 		memset((&L_14), 0, sizeof(L_14));
-		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_14), (-1.20000005f), ((float)il2cpp_codegen_multiply(((-L_13)), (30.0f))), (10.0f), NULL);
+		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_14), (-1.20000005f), ((float)il2cpp_codegen_multiply(L_13, (20.0f))), (10.0f), NULL);
 		NullCheck(L_9);
 		Transform_set_localPosition_mDE1C997F7D79C0885210B7732B4BA50EE7D73134(L_9, L_14, NULL);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_15 = __this->___go;
@@ -18095,7 +18095,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AREyeTracker_OnFaceUpdate_m854279B091953
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_18, (bool)0, NULL);
 	}
 
-IL_0096:
+IL_0095:
 	{
 		ARFace_t73C068C9C8422F79A858EC41C322D399305B8453* L_19 = __this->___arFace;
 		NullCheck(L_19);
@@ -18103,22 +18103,22 @@ IL_0096:
 		L_20 = ARTrackable_2_get_trackingState_mCD4A1688FA7EA1838310AF8BB77191460F371C38(L_19, ARTrackable_2_get_trackingState_mCD4A1688FA7EA1838310AF8BB77191460F371C38_RuntimeMethod_var);
 		if ((!(((uint32_t)L_20) == ((uint32_t)2))))
 		{
-			goto IL_00ae;
+			goto IL_00ad;
 		}
 	}
 	{
 		int32_t L_21;
 		L_21 = ARSession_get_state_m6A22EE6441E58AC66E1FE9A7359D06C90C1A2842_inline(NULL);
 		G_B6_0 = ((((int32_t)L_21) > ((int32_t)5))? 1 : 0);
-		goto IL_00af;
+		goto IL_00ae;
 	}
 
-IL_00ae:
+IL_00ad:
 	{
 		G_B6_0 = 0;
 	}
 
-IL_00af:
+IL_00ae:
 	{
 		V_0 = (bool)G_B6_0;
 		bool L_22 = V_0;
@@ -18141,7 +18141,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AREyeTracker_SetVisibility_mED0E3D9C91FB
 		L_1 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_0, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
 		if (!L_1)
 		{
-			goto IL_0055;
+			goto IL_0054;
 		}
 	}
 	{
@@ -18159,7 +18159,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AREyeTracker_SetVisibility_mED0E3D9C91FB
 		float L_7 = L_6.___y;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_8;
 		memset((&L_8), 0, sizeof(L_8));
-		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_8), (-1.20000005f), ((float)il2cpp_codegen_multiply(((-L_7)), (30.0f))), (10.0f), NULL);
+		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_8), (-1.20000005f), ((float)il2cpp_codegen_multiply(L_7, (20.0f))), (10.0f), NULL);
 		NullCheck(L_3);
 		Transform_set_localPosition_mDE1C997F7D79C0885210B7732B4BA50EE7D73134(L_3, L_8, NULL);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_9 = __this->___go;
@@ -18168,7 +18168,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AREyeTracker_SetVisibility_mED0E3D9C91FB
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_9, L_10, NULL);
 	}
 
-IL_0055:
+IL_0054:
 	{
 		return;
 	}
