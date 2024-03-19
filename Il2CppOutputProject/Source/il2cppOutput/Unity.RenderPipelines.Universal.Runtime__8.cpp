@@ -329,7 +329,6 @@ IL2CPP_EXTERN_C RuntimeClass* ShadowResolutionRequestU5BU5D_t3D199791CBD21072E39
 IL2CPP_EXTERN_C RuntimeClass* ShadowSliceDataU5BU5D_t3B41B7A06BAB3677671AEE84FBCF1A23B7DC7D04_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* ShadowUtils_tCFE84AA46B8156AE034EF14220AD0BBEB011F4E5_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C_il2cpp_TypeInfo_var;
-IL2CPP_EXTERN_C RuntimeClass* TextureHandle_t87D7D063E5E22E38632961AB2B6F89978942BE09_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* TransparentSettingsPass_t13490AAB630DED3A5EDF11A4F4D340B04E3B85B7_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* U3CU3Ec_t142D65B4EBB037EC960B6681E3AAC3BFC61311B1_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* U3CU3Ec_t163A64E771E5023F3C812264083BEBFEB53ABB57_il2cpp_TypeInfo_var;
@@ -2384,7 +2383,6 @@ struct RenderGraphContext_t230588A81E5222F21FB773FD8D1DB979190E0A08  : public Ru
 };
 struct RenderGraphDefaultResources_t9911A2DC8A2C28E3A1F7F2D48B03AFBCEF1F499B  : public RuntimeObject
 {
-	bool ___m_IsValid;
 	RTHandle_t135537761C47BC929F032B3C8F4D55EA1111B07B* ___m_BlackTexture2D;
 	RTHandle_t135537761C47BC929F032B3C8F4D55EA1111B07B* ___m_WhiteTexture2D;
 	RTHandle_t135537761C47BC929F032B3C8F4D55EA1111B07B* ___m_ShadowTexture2D;
@@ -9373,7 +9371,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TextureHandle_t87D7D063E5E22E38632961AB2B6F89
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&RenderGraphBuilder_SetRenderFunc_TisPassData_tFB4F4716E1B2E7E0114D20117C36B283FD446E29_m63C7CA14DED6593015D5105D3EB519B4D0355E96_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&RenderGraph_AddRenderPass_TisPassData_tFB4F4716E1B2E7E0114D20117C36B283FD446E29_m13219482B7849B6B7B42961DA6E30F3D28EA67D8_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ShadowUtils_tCFE84AA46B8156AE034EF14220AD0BBEB011F4E5_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TextureHandle_t87D7D063E5E22E38632961AB2B6F89978942BE09_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec_U3CRenderU3Eb__56_0_m78C4D8BADB1D8586B6F3D66A8590BFD912D14ECD_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec_U3CRenderU3Eb__56_1_mAC00A2B25E55049A1271F2A4BFB287C25B700762_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec_t22440C64AAE23D493E63295DEC99C0AB42C037A8_il2cpp_TypeInfo_var);
@@ -9583,7 +9580,6 @@ FINALLY_011d:
 				TextureHandle_t87D7D063E5E22E38632961AB2B6F89978942BE09 L_27 = V_0;
 				NullCheck(L_26);
 				L_26->___shadowmapTexture = L_27;
-				il2cpp_codegen_runtime_class_init_inline(TextureHandle_t87D7D063E5E22E38632961AB2B6F89978942BE09_il2cpp_TypeInfo_var);
 				bool L_28;
 				L_28 = TextureHandle_IsValid_m3C2D8F8EB70206A09F3FFADDDD230E00C25269D9((&V_0), NULL);
 				if (!L_28)
@@ -9928,12 +9924,6 @@ IL_001f:
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec_U3CRenderU3Eb__56_1_mAC00A2B25E55049A1271F2A4BFB287C25B700762 (U3CU3Ec_t22440C64AAE23D493E63295DEC99C0AB42C037A8* __this, PassData_tFB4F4716E1B2E7E0114D20117C36B283FD446E29* ___0_data, RenderGraphContext_t230588A81E5222F21FB773FD8D1DB979190E0A08* ___1_context, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TextureHandle_t87D7D063E5E22E38632961AB2B6F89978942BE09_il2cpp_TypeInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
 	{
 		PassData_tFB4F4716E1B2E7E0114D20117C36B283FD446E29* L_0 = ___0_data;
 		NullCheck(L_0);
@@ -9981,7 +9971,6 @@ IL_0035:
 		PassData_tFB4F4716E1B2E7E0114D20117C36B283FD446E29* L_18 = ___0_data;
 		NullCheck(L_18);
 		TextureHandle_t87D7D063E5E22E38632961AB2B6F89978942BE09 L_19 = L_18->___shadowmapTexture;
-		il2cpp_codegen_runtime_class_init_inline(TextureHandle_t87D7D063E5E22E38632961AB2B6F89978942BE09_il2cpp_TypeInfo_var);
 		RenderTargetIdentifier_tA528663AC6EB3911D8E91AA40F7070FA5455442B L_20;
 		L_20 = TextureHandle_op_Implicit_m7D0B532B3A4CE3E92E1FC08A743BED70AC767A55(L_19, NULL);
 		NullCheck(L_15);
@@ -14183,12 +14172,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__ctor_mAF292AE2C5FC270C02D72F381
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec_U3CRenderU3Eb__13_0_mD7A0D21C740F6C873D2BA0BAD9DEBCB0D5E513D6 (U3CU3Ec_t142D65B4EBB037EC960B6681E3AAC3BFC61311B1* __this, PassData_tDAE1D33171A4E5E3DF38E7D534325CC68CA166BF* ___0_data, RenderGraphContext_t230588A81E5222F21FB773FD8D1DB979190E0A08* ___1_context, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TextureHandle_t87D7D063E5E22E38632961AB2B6F89978942BE09_il2cpp_TypeInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
 	{
 		RenderGraphContext_t230588A81E5222F21FB773FD8D1DB979190E0A08* L_0 = ___1_context;
 		NullCheck(L_0);
@@ -14200,7 +14183,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec_U3CRenderU3Eb__13_0_mD7A0D21C740
 		PassData_tDAE1D33171A4E5E3DF38E7D534325CC68CA166BF* L_5 = ___0_data;
 		NullCheck(L_5);
 		TextureHandle_t87D7D063E5E22E38632961AB2B6F89978942BE09 L_6 = L_5->___internalLut;
-		il2cpp_codegen_runtime_class_init_inline(TextureHandle_t87D7D063E5E22E38632961AB2B6F89978942BE09_il2cpp_TypeInfo_var);
 		RTHandle_t135537761C47BC929F032B3C8F4D55EA1111B07B* L_7;
 		L_7 = TextureHandle_op_Implicit_m4C8F0C7B41C666953B97B4E4A8A2560A9482B22C(L_6, NULL);
 		ColorGradingLutPass_ExecutePass_m0621D7787B695630A4EAD3DDF6B2C754CB1B8C6C(L_1, L_2, L_4, L_7, NULL);
@@ -15317,18 +15299,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__ctor_m2A0C68CD6052BDD575E1BF6C2
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec_U3CRenderU3Eb__25_0_m2CB10D2AA094950B36B1427C34070E5281E7C419 (U3CU3Ec_tAFD0BEDEAB00939ED0F07D8A995999DACA63B8AE* __this, PassData_t1038890089C1D9C981AA86D1976926E45838D305* ___0_data, RenderGraphContext_t230588A81E5222F21FB773FD8D1DB979190E0A08* ___1_context, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TextureHandle_t87D7D063E5E22E38632961AB2B6F89978942BE09_il2cpp_TypeInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
 	{
 		PassData_t1038890089C1D9C981AA86D1976926E45838D305* L_0 = ___0_data;
 		PassData_t1038890089C1D9C981AA86D1976926E45838D305* L_1 = ___0_data;
 		NullCheck(L_1);
 		TextureHandle_t87D7D063E5E22E38632961AB2B6F89978942BE09 L_2 = L_1->___source;
-		il2cpp_codegen_runtime_class_init_inline(TextureHandle_t87D7D063E5E22E38632961AB2B6F89978942BE09_il2cpp_TypeInfo_var);
 		RTHandle_t135537761C47BC929F032B3C8F4D55EA1111B07B* L_3;
 		L_3 = TextureHandle_op_Implicit_m4C8F0C7B41C666953B97B4E4A8A2560A9482B22C(L_2, NULL);
 		PassData_t1038890089C1D9C981AA86D1976926E45838D305* L_4 = ___0_data;
@@ -15354,7 +15329,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec_U3CRenderU3Eb__25_1_m82F774ADA97
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TextureHandle_t87D7D063E5E22E38632961AB2B6F89978942BE09_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral739BD29C62A318411ED6EEAB7516EEEA0F7261E2);
 		s_Il2CppMethodInitialized = true;
 	}
@@ -15365,7 +15339,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec_U3CRenderU3Eb__25_1_m82F774ADA97
 		PassData_t1038890089C1D9C981AA86D1976926E45838D305* L_2 = ___0_data;
 		NullCheck(L_2);
 		TextureHandle_t87D7D063E5E22E38632961AB2B6F89978942BE09 L_3 = L_2->___destination;
-		il2cpp_codegen_runtime_class_init_inline(TextureHandle_t87D7D063E5E22E38632961AB2B6F89978942BE09_il2cpp_TypeInfo_var);
 		RenderTargetIdentifier_tA528663AC6EB3911D8E91AA40F7070FA5455442B L_4;
 		L_4 = TextureHandle_op_Implicit_m7D0B532B3A4CE3E92E1FC08A743BED70AC767A55(L_3, NULL);
 		NullCheck(L_1);
@@ -16556,7 +16529,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec_U3CRenderU3Eb__27_0_m0668426CF7D
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TextureHandle_t87D7D063E5E22E38632961AB2B6F89978942BE09_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralC8B3F485C7232D90884130F2900C6FE0697181DF);
 		s_Il2CppMethodInitialized = true;
 	}
@@ -16567,7 +16539,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec_U3CRenderU3Eb__27_0_m0668426CF7D
 		PassData_tF70F090B9F8F10D501515F31CF899BBEECA8D8B2* L_2 = ___0_data;
 		NullCheck(L_2);
 		TextureHandle_t87D7D063E5E22E38632961AB2B6F89978942BE09 L_3 = L_2->___source;
-		il2cpp_codegen_runtime_class_init_inline(TextureHandle_t87D7D063E5E22E38632961AB2B6F89978942BE09_il2cpp_TypeInfo_var);
 		RenderTargetIdentifier_tA528663AC6EB3911D8E91AA40F7070FA5455442B L_4;
 		L_4 = TextureHandle_op_Implicit_m7D0B532B3A4CE3E92E1FC08A743BED70AC767A55(L_3, NULL);
 		NullCheck(L_1);
@@ -16577,12 +16548,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec_U3CRenderU3Eb__27_0_m0668426CF7D
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec_U3CRenderU3Eb__27_1_mFDAFB3C1E6703454078DAF1788A037D5B2E69788 (U3CU3Ec_t163A64E771E5023F3C812264083BEBFEB53ABB57* __this, PassData_tF70F090B9F8F10D501515F31CF899BBEECA8D8B2* ___0_data, RenderGraphContext_t230588A81E5222F21FB773FD8D1DB979190E0A08* ___1_context, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TextureHandle_t87D7D063E5E22E38632961AB2B6F89978942BE09_il2cpp_TypeInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
 	{
 		RenderGraphContext_t230588A81E5222F21FB773FD8D1DB979190E0A08* L_0 = ___1_context;
 		NullCheck(L_0);
@@ -16597,7 +16562,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec_U3CRenderU3Eb__27_1_mFDAFB3C1E67
 		PassData_tF70F090B9F8F10D501515F31CF899BBEECA8D8B2* L_7 = ___0_data;
 		NullCheck(L_7);
 		TextureHandle_t87D7D063E5E22E38632961AB2B6F89978942BE09 L_8 = L_7->___source;
-		il2cpp_codegen_runtime_class_init_inline(TextureHandle_t87D7D063E5E22E38632961AB2B6F89978942BE09_il2cpp_TypeInfo_var);
 		RTHandle_t135537761C47BC929F032B3C8F4D55EA1111B07B* L_9;
 		L_9 = TextureHandle_op_Implicit_m4C8F0C7B41C666953B97B4E4A8A2560A9482B22C(L_8, NULL);
 		PassData_tF70F090B9F8F10D501515F31CF899BBEECA8D8B2* L_10 = ___0_data;
@@ -16614,7 +16578,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec_U3CRenderU3Eb__27_2_m02DF0F548B7
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TextureHandle_t87D7D063E5E22E38632961AB2B6F89978942BE09_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral547AC61E241FAE943F5C7A2B2B3DECDDB15A36D6);
 		s_Il2CppMethodInitialized = true;
 	}
@@ -16625,7 +16588,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec_U3CRenderU3Eb__27_2_m02DF0F548B7
 		PassData_tF70F090B9F8F10D501515F31CF899BBEECA8D8B2* L_2 = ___0_data;
 		NullCheck(L_2);
 		TextureHandle_t87D7D063E5E22E38632961AB2B6F89978942BE09 L_3 = L_2->___destination;
-		il2cpp_codegen_runtime_class_init_inline(TextureHandle_t87D7D063E5E22E38632961AB2B6F89978942BE09_il2cpp_TypeInfo_var);
 		RenderTargetIdentifier_tA528663AC6EB3911D8E91AA40F7070FA5455442B L_4;
 		L_4 = TextureHandle_op_Implicit_m7D0B532B3A4CE3E92E1FC08A743BED70AC767A55(L_3, NULL);
 		NullCheck(L_1);
@@ -19179,7 +19141,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DrawObjectsPass_Render_m0F1426DA02035DFD
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&RenderFunc_1_tD664040CCDEB66432F13254930EC3BD87DDA1230_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&RenderGraphBuilder_SetRenderFunc_TisPassData_tF4FD67FF7B2715C52BCB00E214D16901C0BCB1F6_mE9CEC128A3F794632050DAF6CEDE96778D6F8ACC_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&RenderGraph_AddRenderPass_TisPassData_tF4FD67FF7B2715C52BCB00E214D16901C0BCB1F6_m4C109069EE8389E25F31377234B8186A48BFF126_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TextureHandle_t87D7D063E5E22E38632961AB2B6F89978942BE09_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec_U3CRenderU3Eb__17_0_m1FBF5B68A1FFDE53BC11A6AB41E517735B1E2EEA_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec_tF99A867D5141BE399F356400CAF53E401195B967_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralAF05AAE2E27BBAE0943C9CEB40062E340467D277);
@@ -19223,7 +19184,6 @@ FINALLY_00e6:
 				L_6 = RenderGraphBuilder_UseDepthBuffer_m52A44A353C52E10E3DBFAF26A87F86EB08310604((&V_0), (&___2_depthTarget), 2, NULL);
 				NullCheck(L_5);
 				L_5->___m_Depth = L_6;
-				il2cpp_codegen_runtime_class_init_inline(TextureHandle_t87D7D063E5E22E38632961AB2B6F89978942BE09_il2cpp_TypeInfo_var);
 				bool L_7;
 				L_7 = TextureHandle_IsValid_m3C2D8F8EB70206A09F3FFADDDD230E00C25269D9((&___3_mainShadowsTexture), NULL);
 				if (!L_7)
@@ -19238,7 +19198,6 @@ FINALLY_00e6:
 
 IL_0047_1:
 			{
-				il2cpp_codegen_runtime_class_init_inline(TextureHandle_t87D7D063E5E22E38632961AB2B6F89978942BE09_il2cpp_TypeInfo_var);
 				bool L_9;
 				L_9 = TextureHandle_IsValid_m3C2D8F8EB70206A09F3FFADDDD230E00C25269D9((&___4_additionalShadowsTexture), NULL);
 				if (!L_9)
@@ -19454,7 +19413,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec_U3CRenderU3Eb__17_0_m1FBF5B68A1F
 	if (!s_Il2CppMethodInitialized)
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DrawObjectsPass_t84B46B3BEA317D89ACA0B04F80A9346789E8DE68_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TextureHandle_t87D7D063E5E22E38632961AB2B6F89978942BE09_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TransparentSettingsPass_t13490AAB630DED3A5EDF11A4F4D340B04E3B85B7_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&XRSystemUniversal_tC6D796087104B8263D12B71391A3147102BE3FF7_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
@@ -19483,7 +19441,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec_U3CRenderU3Eb__17_0_m1FBF5B68A1F
 		PassData_tF4FD67FF7B2715C52BCB00E214D16901C0BCB1F6* L_6 = ___0_data;
 		NullCheck(L_6);
 		TextureHandle_t87D7D063E5E22E38632961AB2B6F89978942BE09 L_7 = L_6->___m_Albedo;
-		il2cpp_codegen_runtime_class_init_inline(TextureHandle_t87D7D063E5E22E38632961AB2B6F89978942BE09_il2cpp_TypeInfo_var);
 		RenderTargetIdentifier_tA528663AC6EB3911D8E91AA40F7070FA5455442B L_8;
 		L_8 = TextureHandle_op_Implicit_m7D0B532B3A4CE3E92E1FC08A743BED70AC767A55(L_7, NULL);
 		RenderingData_tAAA01190551D6D5954314E3E1E85B58DD45EED71* L_9 = V_0;
@@ -19550,7 +19507,6 @@ IL_0084:
 		PassData_tF4FD67FF7B2715C52BCB00E214D16901C0BCB1F6* L_35 = ___0_data;
 		NullCheck(L_35);
 		TextureHandle_t87D7D063E5E22E38632961AB2B6F89978942BE09 L_36 = L_35->___m_Albedo;
-		il2cpp_codegen_runtime_class_init_inline(TextureHandle_t87D7D063E5E22E38632961AB2B6F89978942BE09_il2cpp_TypeInfo_var);
 		RTHandle_t135537761C47BC929F032B3C8F4D55EA1111B07B* L_37;
 		L_37 = TextureHandle_op_Implicit_m4C8F0C7B41C666953B97B4E4A8A2560A9482B22C(L_36, NULL);
 		PassData_tF4FD67FF7B2715C52BCB00E214D16901C0BCB1F6* L_38 = ___0_data;
@@ -20498,7 +20454,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FinalBlitPass_Render_m5344639A951FD15F25
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&RenderGraphBuilder_SetRenderFunc_TisPassData_t040721763CAC21C7BE315B3E869B0FD8FB39DD4A_mD63C46F66A9C8737C45FEFDE26A54077ABDD1EA2_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&RenderGraph_AddRenderPass_TisPassData_t040721763CAC21C7BE315B3E869B0FD8FB39DD4A_mE841998F398152E78FFC8EF61FC902BD07B09D7F_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ShaderPropertyId_tAA7B64E0C225CFD70D9837D0733FDE84DC3310D2_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TextureHandle_t87D7D063E5E22E38632961AB2B6F89978942BE09_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec_U3CRenderU3Eb__12_0_mDCC0351C2DA12042AC104BDCBC408EA53976802C_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec_t9CDCD547C4E37F8DB55DD01DF5472E99E8725F2B_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UniversalRenderPipeline_t54B4737DC500C08628C5BE283D8C583C14DED98F_il2cpp_TypeInfo_var);
@@ -20643,7 +20598,6 @@ IL_0032_1:
 				}
 			}
 			{
-				il2cpp_codegen_runtime_class_init_inline(TextureHandle_t87D7D063E5E22E38632961AB2B6F89978942BE09_il2cpp_TypeInfo_var);
 				bool L_26;
 				L_26 = TextureHandle_IsValid_m3C2D8F8EB70206A09F3FFADDDD230E00C25269D9((&___4_overlayUITexture), NULL);
 				if (!L_26)
@@ -20791,12 +20745,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__ctor_m20F289A11D59EA9BE0A4A3B02
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec_U3CRenderU3Eb__12_0_mDCC0351C2DA12042AC104BDCBC408EA53976802C (U3CU3Ec_t9CDCD547C4E37F8DB55DD01DF5472E99E8725F2B* __this, PassData_t040721763CAC21C7BE315B3E869B0FD8FB39DD4A* ___0_data, RenderGraphContext_t230588A81E5222F21FB773FD8D1DB979190E0A08* ___1_context, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TextureHandle_t87D7D063E5E22E38632961AB2B6F89978942BE09_il2cpp_TypeInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
 	int32_t V_0 = 0;
 	{
 		PassData_t040721763CAC21C7BE315B3E869B0FD8FB39DD4A* L_0 = ___0_data;
@@ -20808,7 +20756,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec_U3CRenderU3Eb__12_0_mDCC0351C2DA
 		PassData_t040721763CAC21C7BE315B3E869B0FD8FB39DD4A* L_4 = ___0_data;
 		NullCheck(L_4);
 		TextureHandle_t87D7D063E5E22E38632961AB2B6F89978942BE09 L_5 = L_4->___source;
-		il2cpp_codegen_runtime_class_init_inline(TextureHandle_t87D7D063E5E22E38632961AB2B6F89978942BE09_il2cpp_TypeInfo_var);
 		Texture_t791CBB51219779964E0E8A2ED7C1AA5F92A4A700* L_6;
 		L_6 = TextureHandle_op_Implicit_m0E08A5D7E574D5C206C46019F37323F87F2B207A(L_5, NULL);
 		NullCheck(L_1);
@@ -20868,7 +20815,6 @@ IL_0068:
 		PassData_t040721763CAC21C7BE315B3E869B0FD8FB39DD4A* L_28 = ___0_data;
 		NullCheck(L_28);
 		TextureHandle_t87D7D063E5E22E38632961AB2B6F89978942BE09 L_29 = L_28->___destination;
-		il2cpp_codegen_runtime_class_init_inline(TextureHandle_t87D7D063E5E22E38632961AB2B6F89978942BE09_il2cpp_TypeInfo_var);
 		RTHandle_t135537761C47BC929F032B3C8F4D55EA1111B07B* L_30;
 		L_30 = TextureHandle_op_Implicit_m4C8F0C7B41C666953B97B4E4A8A2560A9482B22C(L_29, NULL);
 		PassData_t040721763CAC21C7BE315B3E869B0FD8FB39DD4A* L_31 = ___0_data;
@@ -22181,7 +22127,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec_U3CRenderU3Eb__20_1_m050513B80BD
 	if (!s_Il2CppMethodInitialized)
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DeferredLights_t8A3C2AC9C4AF92CF3411F722D8A094EA07DA14AC_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TextureHandle_t87D7D063E5E22E38632961AB2B6F89978942BE09_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
 	int32_t V_0 = 0;
@@ -22222,7 +22167,6 @@ IL_0004:
 		NullCheck(L_12);
 		int32_t L_14 = L_13;
 		TextureHandle_t87D7D063E5E22E38632961AB2B6F89978942BE09 L_15 = (L_12)->GetAt(static_cast<il2cpp_array_size_t>(L_14));
-		il2cpp_codegen_runtime_class_init_inline(TextureHandle_t87D7D063E5E22E38632961AB2B6F89978942BE09_il2cpp_TypeInfo_var);
 		RenderTargetIdentifier_tA528663AC6EB3911D8E91AA40F7070FA5455442B L_16;
 		L_16 = TextureHandle_op_Implicit_m7D0B532B3A4CE3E92E1FC08A743BED70AC767A55(L_15, NULL);
 		NullCheck(L_6);
@@ -23502,7 +23446,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TextureHandle_t87D7D063E5E22E38632961AB2B6F89
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&RenderGraphBuilder_SetRenderFunc_TisPassData_t4EBCD157121F31BADC982DAC39A13767A7E5207A_m1B17181821859C545E60108B2E25B6AB02CCAF73_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&RenderGraph_AddRenderPass_TisPassData_t4EBCD157121F31BADC982DAC39A13767A7E5207A_mB6F4879EDDEEF387986486C1DD5AC901E61B65E1_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ShadowUtils_tCFE84AA46B8156AE034EF14220AD0BBEB011F4E5_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TextureHandle_t87D7D063E5E22E38632961AB2B6F89978942BE09_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec_U3CRenderU3Eb__27_0_m691ADDC9F3B5E9282A5C3A569C6BD951C66066EC_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec_U3CRenderU3Eb__27_1_m11A283407A468737C1E3E4E586C09D1B345B86BA_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec_tC651251045AF6738E88E0DC843CE52D8B72A3264_il2cpp_TypeInfo_var);
@@ -23712,7 +23655,6 @@ FINALLY_011d:
 				TextureHandle_t87D7D063E5E22E38632961AB2B6F89978942BE09 L_27 = V_0;
 				NullCheck(L_26);
 				L_26->___shadowmapTexture = L_27;
-				il2cpp_codegen_runtime_class_init_inline(TextureHandle_t87D7D063E5E22E38632961AB2B6F89978942BE09_il2cpp_TypeInfo_var);
 				bool L_28;
 				L_28 = TextureHandle_IsValid_m3C2D8F8EB70206A09F3FFADDDD230E00C25269D9((&V_0), NULL);
 				if (!L_28)
