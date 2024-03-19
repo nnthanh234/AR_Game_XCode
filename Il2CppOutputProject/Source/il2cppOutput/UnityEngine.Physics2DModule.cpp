@@ -272,12 +272,6 @@ struct Collider2D_t6A17BA7734600EF3F26588E9ED903617D5B8EB52  : public Behaviour_
 struct BoxCollider2D_tF860C7737FFB062CEC06577E0CD8364EEC1D4EDA  : public Collider2D_t6A17BA7734600EF3F26588E9ED903617D5B8EB52
 {
 };
-struct CapsuleCollider2D_tBC93B7F1D1569FF805567D2D4C17438E95F927EE  : public Collider2D_t6A17BA7734600EF3F26588E9ED903617D5B8EB52
-{
-};
-struct EdgeCollider2D_tB7A39F2B1345894C40577A62FD62244702DE3710  : public Collider2D_t6A17BA7734600EF3F26588E9ED903617D5B8EB52
-{
-};
 struct List_1_t2EF0515F9247C0F480F55BF3E296366A47CB0324_StaticFields
 {
 	RaycastHit2DU5BU5D_t28739C686586993113318B63C84927FD43063FC7* ___s_emptyArray;
@@ -2202,22 +2196,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Collider2D_get_bounds_Injected_mB3F24D39
 	_il2cpp_icall_func = (Collider2D_get_bounds_Injected_mB3F24D39428D3C8E314CC6452878BD9A62C216E4_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Collider2D::get_bounds_Injected(UnityEngine.Bounds&)");
 	_il2cpp_icall_func(__this, ___0_ret);
 }
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif

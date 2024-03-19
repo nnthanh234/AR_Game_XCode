@@ -495,6 +495,7 @@ IL2CPP_EXTERN_C RuntimeClass* StringBuilder_t_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* TaaPersistentData_t7AD3D320FD8FE7195225F0A7C7C676480A6ED775_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* TemporalAA_t9495EEB5DEE3C075B518C9C516C63C1E61C6B662_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* TextureHandle_t87D7D063E5E22E38632961AB2B6F89978942BE09_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* TilingJob_t4506E6F62C95A90210A474DE43C83AF5EB8D3352_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* TransparentSettingsPass_t13490AAB630DED3A5EDF11A4F4D340B04E3B85B7_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Type_t_il2cpp_TypeInfo_var;
@@ -2897,6 +2898,7 @@ struct RenderGraphContext_t230588A81E5222F21FB773FD8D1DB979190E0A08  : public Ru
 };
 struct RenderGraphDefaultResources_t9911A2DC8A2C28E3A1F7F2D48B03AFBCEF1F499B  : public RuntimeObject
 {
+	bool ___m_IsValid;
 	RTHandle_t135537761C47BC929F032B3C8F4D55EA1111B07B* ___m_BlackTexture2D;
 	RTHandle_t135537761C47BC929F032B3C8F4D55EA1111B07B* ___m_WhiteTexture2D;
 	RTHandle_t135537761C47BC929F032B3C8F4D55EA1111B07B* ___m_ShadowTexture2D;
@@ -24116,6 +24118,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec_U3CRenderU3Eb__11_0_mD30A3D74828
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CoreUtils_tEE57AB2B0DAE9561F4954B08800A8F957850B038_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ShaderConstants_t4F23ACD1A23284ED25129B26F10C056A456CD815_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ShaderKeywords_t1D69DF5C175FFB31200CBF45964EAB7BB5C58C3E_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TextureHandle_t87D7D063E5E22E38632961AB2B6F89978942BE09_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
 	{
@@ -24145,6 +24148,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec_U3CRenderU3Eb__11_0_mD30A3D74828
 		TaaPassData_t992ABF68CE669B648B042A94BB6F244C2D330E05* L_13 = ___0_data;
 		NullCheck(L_13);
 		TextureHandle_t87D7D063E5E22E38632961AB2B6F89978942BE09 L_14 = L_13->___srcTaaAccumTex;
+		il2cpp_codegen_runtime_class_init_inline(TextureHandle_t87D7D063E5E22E38632961AB2B6F89978942BE09_il2cpp_TypeInfo_var);
 		Texture_t791CBB51219779964E0E8A2ED7C1AA5F92A4A700* L_15;
 		L_15 = TextureHandle_op_Implicit_m0E08A5D7E574D5C206C46019F37323F87F2B207A(L_14, NULL);
 		NullCheck(L_11);
@@ -24210,6 +24214,7 @@ IL_00b1:
 		TaaPassData_t992ABF68CE669B648B042A94BB6F244C2D330E05* L_42 = ___0_data;
 		NullCheck(L_42);
 		TextureHandle_t87D7D063E5E22E38632961AB2B6F89978942BE09 L_43 = L_42->___srcColorTex;
+		il2cpp_codegen_runtime_class_init_inline(TextureHandle_t87D7D063E5E22E38632961AB2B6F89978942BE09_il2cpp_TypeInfo_var);
 		RTHandle_t135537761C47BC929F032B3C8F4D55EA1111B07B* L_44;
 		L_44 = TextureHandle_op_Implicit_m4C8F0C7B41C666953B97B4E4A8A2560A9482B22C(L_43, NULL);
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_45;
@@ -24233,6 +24238,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec_U3CRenderU3Eb__11_1_mA04E8F5F7D6
 	if (!s_Il2CppMethodInitialized)
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Blitter_t33DF283FBD19A8EE25C460B6D9B3087648A456A7_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TextureHandle_t87D7D063E5E22E38632961AB2B6F89978942BE09_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
 	{
@@ -24242,6 +24248,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec_U3CRenderU3Eb__11_1_mA04E8F5F7D6
 		TaaPassData_t992ABF68CE669B648B042A94BB6F244C2D330E05* L_2 = ___0_data;
 		NullCheck(L_2);
 		TextureHandle_t87D7D063E5E22E38632961AB2B6F89978942BE09 L_3 = L_2->___srcColorTex;
+		il2cpp_codegen_runtime_class_init_inline(TextureHandle_t87D7D063E5E22E38632961AB2B6F89978942BE09_il2cpp_TypeInfo_var);
 		RTHandle_t135537761C47BC929F032B3C8F4D55EA1111B07B* L_4;
 		L_4 = TextureHandle_op_Implicit_m4C8F0C7B41C666953B97B4E4A8A2560A9482B22C(L_3, NULL);
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_5;
